@@ -1,0 +1,195 @@
+body{
+  background-image: url("images/pink-circuit.jpg");
+  padding: 15px;
+  border: 10px;
+  border-style: double;
+  border-color: aqua; 
+}
+
+h1{
+  color: plum;
+  text-align: center;
+  font-size: 75px;
+  text-shadow: 4px 4px purple;
+  font-family: 'anurati-regular';
+  background-image: url("images/banner-circuit.jpg");
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+  border: 10px;
+  border-style: double;
+  border-color: aqua;
+}
+
+ul{
+  background-image: url("images/banner-circuit.jpg");
+  padding: 5px;
+  border: 10px;
+  border-style: double;
+  border-color: aqua;
+}
+
+button{
+  background-color: plum;
+  font-family: 'anurati-regular';
+  color: purple;
+  border-color: aqua;
+  font-size: 20px;
+}
+
+.home{
+  background-image: url("images/cyber-space.png");
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 10px;
+  border-style: double;
+  border-color: aqua;
+}
+
+h2{
+  color: plum;
+  font-family: 'brotherhood script';
+  font-size: 100px;
+  text-align: center;
+  text-shadow: 3px 3px purple;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.img1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border: 10px;
+  border-style: double;
+  border-color: aqua;
+}
+
+h3{
+  font-family: 'Outrider Academy Italic Italic';
+  text-align: center;
+  font-size: 45px;
+  color: plum;
+  text-shadow: 3px 3px purple;
+}
+
+h4{
+  font-family: 'Dameron Condensed Italic';
+  text-align: center;
+  font-size: 20px;
+  color: plum;
+  text-shadow: 2px 2px purple;
+}
+
+.biography{
+  background-image: url("images/round-display.jpg");
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 10px;
+  border-style: double;
+  border-color: aqua; 
+}
+
+.one{
+  font-family: 'Dameron Condensed Italic';
+  Font-size: 20px;
+  color: plum;
+  text-shadow: 2px 2px purple;
+}
+
+.history{
+  background-image: url("images/multy-screens.jpg");
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 10px;
+  border-style: double;
+  border-color: aqua;
+} 
+
+.two{
+  font-family: 'Dameron Condensed Italic';
+  Font-size: 20px;
+  color: plum;
+  text-shadow: 2px 2px purple;
+}
+
+.portfolio{
+  background-image: url("images/data-display.jpg");
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 10px;
+  border-style: double;
+  border-color: aqua;
+}
+
+.contact{
+  background-image: url("images/data-tunnel.jpg");
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 10px;
+  border-style: double;
+  border-color: aqua;
+}
+
+.three{
+  font-family: 'Outrider Academy Italic Italic';
+  text-align: center;
+  font-size: 60px;
+  color: plum;
+  text-shadow: 3px 3px purple;
+}
+
+.four{
+  font-family: 'Dameron Condensed Italic';
+  Font-size: 18px;
+  color: plum;
+  text-shadow: 2px 2px purple;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  font-family: 'Dameron Condensed Italic';
+  font-size: 18px;
+  color: plum;
+  text-shadow: 2px 2px purple;
+}
+
+input{
+  background-image: url(images/green-circuit.jpg);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  height: 125px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  background-image: url(images/green-circuit.jpg);
+  resize: none;
+}
+
+.img2{
+  display: block;
+  width: 50%;
+  margin-right: 1%;
+  margin-left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
