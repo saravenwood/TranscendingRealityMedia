@@ -1,4 +1,7 @@
+
+ /* This is the container for the body */
 body{
+  /* Add background image here - Pink-Circuit */
   background-image: url("images/pink-circuit.jpg");
   padding: 15px;
   border: 10px;
@@ -6,29 +9,36 @@ body{
   border-color: aqua; 
 }
 
+/* This is the container for the header (title) */
 h1{
   color: plum;
   text-align: center;
-  font-size: 75px;
+  font-size: 100px;
   text-shadow: 4px 4px purple;
+  /* Add the font Anurati-Regular */ 
   font-family: 'anurati-regular';
-  background-image: url("images/banner-circuit.jpg");
+  /* Add header background image here - Banner-pic */
+  background-image: url("images/banner-pic.jpg");
   margin-top: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 25px;
   padding: 10px;
   border: 10px;
   border-style: double;
   border-color: aqua;
 }
 
+/* this is the container for the navigation bar */
 ul{
-  background-image: url("images/banner-circuit.jpg");
+  /* Add background image here - Banner-pic */
+  background-image: url("images/banner-pic.jpg");
   padding: 5px;
   border: 10px;
   border-style: double;
   border-color: aqua;
+  margin-bottom: 25px;
 }
 
+/* this is button containers for the navigations */
 button{
   background-color: plum;
   font-family: 'anurati-regular';
@@ -37,18 +47,31 @@ button{
   font-size: 20px;
 }
 
+/* Change the link color to red on hover */
+ul a:hover {
+  background-color: red;
+}
+
+/* Change the link color to purple when active */
+.active{
+  background-color: purple;
+}
+
+/* This is a container for the home page */
 .home{
+  /* Add background image here - cyber-space */
   background-image: url("images/cyber-space.png");
   margin-top: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 25px;
   padding: 5px;
   border: 10px;
   border-style: double;
   border-color: aqua;
 }
-
+/* This is the style for h2 */ 
 h2{
   color: plum;
+  /* Add font Brotherhood Script */
   font-family: 'brotherhood script';
   font-size: 100px;
   text-align: center;
@@ -57,17 +80,22 @@ h2{
   margin-bottom: 0px;
 }
 
+/* This is the style container for image number one */
 .img1{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
   width: 30%;
   border: 10px;
   border-style: double;
   border-color: aqua;
 }
 
+/* This is the style for h3 */
 h3{
+  /* Add font Outrider Academy Italic Italic */
   font-family: 'Outrider Academy Italic Italic';
   text-align: center;
   font-size: 45px;
@@ -75,7 +103,9 @@ h3{
   text-shadow: 3px 3px purple;
 }
 
+/* This is the style for h4 */
 h4{
+  /* Add the font Dameron Condensed Italic */
   font-family: 'Dameron Condensed Italic';
   text-align: center;
   font-size: 20px;
@@ -83,60 +113,115 @@ h4{
   text-shadow: 2px 2px purple;
 }
 
+/* This is an article container */
+article{
+  border: 10px;
+  border-style: double;
+  border-color: aqua;
+  background-color: black;
+  margin-bottom: 25px; 
+}
+
+/* This is the style for image number three - Divider images */
+.img3{
+  height: 175px;
+  width: 1000px;
+}
+/* This adds a black background to contrast the background image against the text */
+.header1{
+  padding: 5px;
+  border: 10px;
+  border-style: double;
+  border-color: aqua;
+  background-color: black;
+  margin: 25px;
+}
+
+/* This is the container for the Biography Page */
 .biography{
+  /* Add background image here - round-display */
   background-image: url("images/round-display.jpg");
   margin-top: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 25px;
   padding: 5px;
   border: 10px;
   border-style: double;
   border-color: aqua; 
 }
 
+/* This is the style for the bulk text on the Biography Page */
 .one{
+  /* Add the font Dameron Condensed Italic */
   font-family: 'Dameron Condensed Italic';
-  Font-size: 20px;
+  Font-size: 18px;
   color: plum;
   text-shadow: 2px 2px purple;
 }
 
+/* This adds a black background to contrast the background image with the text */ 
+.header2{
+  padding: 5px;
+  border: 10px;
+  border-style: double;
+  border-color: aqua;
+  background-color: black;
+  margin: 25px;
+}
+
+/* This is the container for the History Page */
 .history{
+  /* Add background image here - multy-screens */
   background-image: url("images/multy-screens.jpg");
   margin-top: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 25px;
   padding: 5px;
   border: 10px;
   border-style: double;
   border-color: aqua;
 } 
 
+/* This is the style for the bulk text on the History Page */
 .two{
+  /* Add the font Dameron Condensed Italic */
   font-family: 'Dameron Condensed Italic';
-  Font-size: 20px;
+  Font-size: 18px;
   color: plum;
   text-shadow: 2px 2px purple;
 }
 
+/* This adds a black background to contrast the background image with the text */
+.header3{
+  padding: 5px;
+  border: 10px;
+  border-style: double;
+  border-color: aqua;
+  background-color: black;
+  margin: 25px;
+}
+
+/* This is the container for the Portfolio Page */
 .portfolio{
+  /* Add background image here - data-display */
   background-image: url("images/data-display.jpg");
   margin-top: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 25px;
   padding: 5px;
   border: 10px;
   border-style: double;
   border-color: aqua;
 }
 
-.contact{
-  background-image: url("images/data-tunnel.jpg");
-  margin-top: 5px;
-  margin-bottom: 5px;
+/* This adds a black background to contrast the background image with the text */
+.header4{
   padding: 5px;
   border: 10px;
   border-style: double;
   border-color: aqua;
+  background-color: black;
+  margin: 25px;
 }
 
+/* This is the style for the bulk text of the Portfolio Page */
 .three{
   font-family: 'Outrider Academy Italic Italic';
   text-align: center;
@@ -145,6 +230,29 @@ h4{
   text-shadow: 3px 3px purple;
 }
 
+/* This is the container for the Contact Page */
+.contact{
+  /* Add background image here - data-tunnel */
+  background-image: url("images/data-tunnel.jpg");
+  margin-top: 5px;
+  margin-bottom: 25px;
+  padding: 5px;
+  border: 10px;
+  border-style: double;
+  border-color: aqua;
+}
+
+/* This adds a black background to contrast the background image with the text */
+.header5{
+  padding: 5px;
+  border: 10px;
+  border-style: double;
+  border-color: aqua;
+  background-color: black;
+  margin: 25px;
+}
+
+/* This is the style of the bulk text for the Contact Page */
 .four{
   font-family: 'Dameron Condensed Italic';
   Font-size: 18px;
@@ -152,37 +260,146 @@ h4{
   text-shadow: 2px 2px purple;
 }
 
+/* Style all font awesome icons */
+.fa {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 110px;
+  margin-right: 110px 
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border: 10px;
+  border-style: double;
+  border-color: aqua;
+}
+
+/* Add a hover effect */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram{
+  background: rgb(39, 105, 155);
+  color: white;
+}
+
+/* LinkedIn */
+.fa-linkedin{
+  background: rgb(144, 202, 247)
+}
+
+/* This is the style container for the Contact Form */
 .flex-container{
   display: flex;
   flex-direction: row;
+  margin-bottom: 25px;
+  /* Add the font Dameron Condensed Italic */
   font-family: 'Dameron Condensed Italic';
   font-size: 18px;
   color: plum;
   text-shadow: 2px 2px purple;
+  padding: 5px;
+  border: 10px;
+  border-style: double;
+  border-color: aqua;
+  margin: 25px;
+  background-color: black;
 }
 
+/* This is the container for the Contact Form */
 input{
+  /* Add background image here - green-circuit */
   background-image: url(images/green-circuit.jpg);
-  width: 100%;
+  width: 95%;
   box-sizing: border-box;
+  padding: 5px;
+  border: 10px;
+  border-style: double;
+  border-color: aqua;
+  margin: 10px;
 }
 
+/* This allows for the last box on the form to be of a different size than the rest */
 textarea {
-  width: 100%;
+  width: 95%;
   height: 125px;
   padding: 12px 20px;
   box-sizing: border-box;
   background-image: url(images/green-circuit.jpg);
   resize: none;
+  border: 10px;
+  border-style: double;
+  border-color: aqua;
+  margin: 10px;
 }
 
+/* This is the container for image number two - Map of New Orleans */
 .img2{
   display: block;
   width: 50%;
   margin-right: 1%;
   margin-left: auto;
+  border: 10px;
+  border-style: double;
+  border-color: aqua;
+  margin: 10px;
 }
 
+footer{
+  /* Add background image here - Banner-pic */
+  background-image: url("images/banner-pic.jpg");
+  margin-bottom: 25px;
+  padding: 5px;
+  border: 10px;
+  border-style: double;
+  border-color: aqua;
+}
+
+/* This adds a black background to contrast the background image with the text */
+.footer2{
+  padding: 5px;
+  border: 10px;
+  border-style: double;
+  border-color: aqua;
+  margin: 25px;
+  background-color: black;
+}
+
+.p1{
+  /* Add the font Times New Roman */
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  color: plum;
+  text-shadow: 2px 2px purple;
+  text-align: center;
+}
+
+.p2{
+  /* Add the font Dameron Condensed Italic */
+  font-family: 'Dameron Condensed Italic';
+  font-size: 18px;
+  color: plum;
+  text-shadow: 2px 2px purple;
+  text-align: center;
+}
 
 
 
