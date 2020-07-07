@@ -328,7 +328,7 @@ h4{
 input{
   /* Add background image here - green-circuit */
   background-image: url(images/green-circuit.jpg);
-  width: 95%;
+  width: 125%;
   box-sizing: border-box;
   padding: 5px;
   border: 10px;
@@ -339,8 +339,8 @@ input{
 
 /* This allows for the last box on the form to be of a different size than the rest */
 textarea {
-  width: 95%;
-  height: 125px;
+  width: 125%;
+  height: 150px;
   padding: 12px 20px;
   box-sizing: border-box;
   background-image: url(images/green-circuit.jpg);
@@ -354,7 +354,7 @@ textarea {
 /* This is the container for image number two - Map of New Orleans */
 .img2{
   display: block;
-  width: 75%;
+  width: 50%;
   margin-right: 1%;
   margin-left: auto;
   border: 10px;
@@ -403,17 +403,17 @@ footer{
 
 @font-face {
   font-family: 'anurati-regular';
-  src: url('http://www.fontsaddict.com/fontface/dameron-condensed-italic.ttf');
+  src: url('http://www.fontsaddict.com/fontface/anurati-regular.ttf');
 }
 
 @font-face {
-  font-family: 'Outrider Academy Italic Italic';
-  src: url('http://www.fontsaddict.com/fontface/dameron-condensed-italic.ttf');
+  font-family: 'outrider academy italic italic';
+  src: url('http://www.fontsaddict.com/fontface/outrider-academy-italic-italic.ttf');
 }
 
 @font-face {
   font-family: 'brotherhood script';
-  src: url('http://www.fontsaddict.com/fontface/dameron-condensed-italic.ttf');
+  src: url('http://www.fontsaddict.com/fontface/brotherhood-script.ttf');
 }
 
 
