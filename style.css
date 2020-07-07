@@ -105,8 +105,8 @@ h3{
 
 /* This is the style for h4 */
 h4{
-  /* Add the font Dameron Condensed Italic */
-  font-family: 'Dameron Condensed Italic';
+  /* Add the font Times New Roman */
+  font-family: 'Times New Roman', Times, serif;
   text-align: center;
   font-size: 20px;
   color: plum;
@@ -151,8 +151,8 @@ article{
 
 /* This is the style for the bulk text on the Biography Page */
 .one{
-  /* Add the font Dameron Condensed Italic */
-  font-family: 'Dameron Condensed Italic';
+  /* Add the font Times New Roman */
+  font-family: 'Times New Roman', Times, serif;
   Font-size: 18px;
   color: plum;
   text-shadow: 2px 2px purple;
@@ -182,8 +182,8 @@ article{
 
 /* This is the style for the bulk text on the History Page */
 .two{
-  /* Add the font Dameron Condensed Italic */
-  font-family: 'Dameron Condensed Italic';
+  /* Add the font Times New Roman */
+  font-family: 'Times New Roman', Times, serif;
   Font-size: 18px;
   color: plum;
   text-shadow: 2px 2px purple;
@@ -254,7 +254,7 @@ article{
 
 /* This is the style of the bulk text for the Contact Page */
 .four{
-  font-family: 'Dameron Condensed Italic';
+  font-family: 'Times New Roman', Times, serif;
   Font-size: 18px;
   color: plum;
   text-shadow: 2px 2px purple;
@@ -311,8 +311,8 @@ article{
   display: flex;
   flex-direction: row;
   margin-bottom: 25px;
-  /* Add the font Dameron Condensed Italic */
-  font-family: 'Dameron Condensed Italic';
+  /* Add the font Times New Roman */
+  font-family: 'Times New Roman', Times, serif;
   font-size: 18px;
   color: plum;
   text-shadow: 2px 2px purple;
@@ -393,12 +393,27 @@ footer{
 }
 
 .p2{
-  /* Add the font Dameron Condensed Italic */
-  font-family: 'Dameron Condensed Italic';
+  /* Add the font Times New Roman */
+  font-family: 'Times New Roman', Times, serif;
   font-size: 18px;
   color: plum;
   text-shadow: 2px 2px purple;
   text-align: center;
+}
+
+@font-face {
+  font-family: 'anurati-regular';
+  src: url('http://www.fontsaddict.com/fontface/dameron-condensed-italic.ttf');
+}
+
+@font-face {
+  font-family: 'Outrider Academy Italic Italic';
+  src: url('http://www.fontsaddict.com/fontface/dameron-condensed-italic.ttf');
+}
+
+@font-face {
+  font-family: 'brotherhood script';
+  src: url('http://www.fontsaddict.com/fontface/dameron-condensed-italic.ttf');
 }
 
 
