@@ -28,7 +28,7 @@ h1{
 }
 
 /* this is the container for the navigation bar */
-ul{
+nav{
   /* Add background image here - Banner-pic */
   background-image: url("images/banner-pic.jpg");
   padding: 5px;
