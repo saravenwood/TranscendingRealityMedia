@@ -39,7 +39,7 @@ nav{
 }
 
 /* this is button containers for the navigations */
-button{
+a{
   background-color: plum;
   font-family: 'anurati-regular';
   color: purple;
