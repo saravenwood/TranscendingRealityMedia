@@ -303,7 +303,14 @@ h4{
 
 /* LinkedIn */
 .fa-linkedin{
-  background: rgb(144, 202, 247)
+  background: rgb(144, 202, 247);
+  color: white;
+}
+
+/* GetHub */
+.fa-gethub{
+  background:rgb(142, 200, 245);
+  color: white;
 }
 
 /* This is the style container for the Contact Form */
