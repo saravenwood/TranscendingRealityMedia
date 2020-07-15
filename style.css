@@ -265,8 +265,8 @@ h4{
   padding: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-left: 90px;
-  margin-right: 90px 
+  margin-left: 70px;
+  margin-right: 70px 
   font-size: 30px;
   width: 50px;
   text-align: center;
@@ -335,7 +335,7 @@ h4{
 input{
   /* Add background image here - green-circuit */
   background-image: url(images/green-circuit.jpg);
-  width: 100%;
+  width: 95%;
   box-sizing: border-box;
   padding: 5px;
   border: 10px;
@@ -346,7 +346,7 @@ input{
 
 /* This allows for the last box on the form to be of a different size than the rest */
 textarea {
-  width: 100%;
+  width: 95%;
   height: 150px;
   padding: 12px 20px;
   box-sizing: border-box;
